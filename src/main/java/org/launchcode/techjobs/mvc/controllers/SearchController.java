@@ -37,7 +37,7 @@ public class SearchController {
         }
         model.addAttribute("jobs", jobs);
         model.addAttribute("columns", columnChoices);
-        return "search";
+        return "list-jobs";
     }
 
     // TODO #3 - Create a handler to process a search request and render the updated search view.
